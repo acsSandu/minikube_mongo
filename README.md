@@ -1,6 +1,6 @@
-# minikube_mongo_db
+# Minikube Mongo
 
-Testing cloud mongo_db
+A K8S mongo_db and mongo_express starting configuration
 
 1. First create the mongodb server. Cd into the folder and run:
 
