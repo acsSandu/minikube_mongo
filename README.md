@@ -17,3 +17,11 @@ $ cd mongoexpress-conf
 $ chmod +X commands.sh
 $ ./commands.sh
 ```
+
+That's all. Run:
+
+```bash
+$ minikube service mongo-express-service
+```
+
+**!!! Happy mongoing!**
