@@ -13,6 +13,10 @@ echo "Creating external service for mongo express!"
 kubectl apply -f mongo-express-external-service.yaml
 echo "Done!"
 sleep(1000)
+echo "Creating ingress for mongo express!"
+kubectl apply -f mongo-express-ingress.yaml
+echo "Done!"
+sleep(1000)
 kubectl get all | grep mongo
 sleep(1000)
 echo "All done! Happy mongoing!"

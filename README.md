@@ -18,10 +18,20 @@ $ chmod +X commands.sh
 $ ./commands.sh
 ```
 
-That's all. Run:
+That's all. You can run:
 
 ```bash
 $ minikube service mongo-express-service
 ```
+
+or:
+
+Get the IP address from the ingress and map it to your /etc/hosts file
+
+```bash
+$ sudo nano etc/hosts
+```
+
+add your IP and your host ingress name
 
 **!!! Happy mongoing!**
